@@ -17,7 +17,7 @@ def healthy():
         return False
 
 if healthy():
-    print('工作台已运行：' + url)
+    print('Offer Lai 已运行：' + url)
     raise SystemExit(0)
 with socket.socket() as probe:
     if probe.connect_ex(('127.0.0.1', 8765)) == 0:
@@ -29,7 +29,7 @@ with (root / 'data/server.log').open('ab') as log:
         start_new_session=True, close_fds=True)
 for _ in range(30):
     if healthy():
-        print('工作台已启动（独立后台进程）：' + url)
+        print('Offer Lai 已启动（独立后台进程）：' + url)
         raise SystemExit(0)
     if process.poll() is not None:
         break

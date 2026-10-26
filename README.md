@@ -1,6 +1,6 @@
-# 求职工作台 · Job Console
+# Offer Lai
 
-本机运行的求职辅助工具：管理岗位筛选条件、简历与投递记录，并通过 DeepSeek 分析简历与岗位 JD。
+Offer Lai 是本机运行的求职辅助工具：管理岗位筛选条件、简历与投递记录，并通过 DeepSeek 分析简历与岗位 JD。
 
 ## 功能
 
@@ -15,8 +15,8 @@
 目前面向 **macOS、Python 3.10+**；API Key 存储使用 macOS 钥匙串。浏览器流程模块需要 Node.js 18+ 和提供 CUA Tab 接口的 Agent 环境，不是独立无人值守投递工具。
 
 ```sh
-git clone https://github.com/shentina78-debug/job-console.git
-cd job-console
+git clone https://github.com/shentina78-debug/offer-lai.git
+cd offer-lai
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt

@@ -1,0 +1,22 @@
+# Private local data: never commit
+/data/*
+!/data/company_catalog.example.json
+/uploads/
+/runs/
+/backups/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+*.tmp
+.DS_Store
+*.png
+*.pdf
+*.docx

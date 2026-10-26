@@ -1,0 +1,14 @@
+{
+  "platform": "51job",
+  "version": "51job-ui-v1",
+  "attachment": "综合能力简历",
+  "dialogTitle": "选择需要同步发送的附件简历",
+  "applyText": "立即投递",
+  "deliveredText": "已投递",
+  "sendText": "发送",
+  "successText": "投递成功",
+  "campusLabel": "校招",
+  "internshipLabel": "实习",
+  "sortText": "最新优先",
+  "searchPlaceholder": "请输入公司/职位"
+}
